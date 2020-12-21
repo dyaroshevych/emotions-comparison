@@ -43,11 +43,21 @@ main.main()
 
 You will be asked to make a choice:
 
-![preview-1](https://drive.google.com/file/d/1Ri-KKczTBblq7mcskkcC9ajZdrbM_WHl/view?usp=sharing)
+![preview-1](https://gdurl.com/96tW)
 
-If your choice was to compare a single book and film, you will be asked to choose which ones and then given the data.
-![preview-2](https://drive.google.com/file/d/17Vdrq3Pihcv0393VptmsGiSd4vR3otRq/view?usp=sharing)
-![preview-3](https://drive.google.com/file/d/1fxDJZhbwBAEQyhFURVUI95N4XAKuj2Ue/view?usp=sharing)
+<br />
+<br />
+
+If your choice was to compare a single book and film, you will be asked to choose which ones.
+
+![preview-2](https://gdurl.com/YzH8)
+
+<br />
+<br />
+
+In the end, the data will be shown in the console.
+
+![preview-3](https://gdurl.com/BYx0)
 
 ## Meta
 
