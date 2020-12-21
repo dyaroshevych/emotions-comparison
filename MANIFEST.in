@@ -1,0 +1,3 @@
+include emotions_comparison/data/*
+include emotions_comparison/books/*
+include emotions_comparison/scripts/*

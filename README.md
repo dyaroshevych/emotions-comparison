@@ -1,48 +1,53 @@
 # Book vs Film Emotions Comparison
 
-> Compare emotions in a book vs a film along with their ratings.
-
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 This package allows you to dive deeper into the art of H.G. Wells by showing you how huge amounts of emotions in films do not make them better than corresponding books. It allows the user to either compare a single book and film or get an analysis based on author's all works.
-
-![](header.png)
 
 ## Installation
 
-OS X & Linux:
+### Option 1: Quick Way (with clean data)
+
+1. Install the package.
 
 ```sh
-npm install my-crazy-module --save
+pip install emotions_comparison
 ```
 
-Windows:
+### Option 2: Long Way (with raw data)
+
+1. Install the package.
 
 ```sh
-edit autoexec.bat
+pip install emotions_comparison
+```
+
+2. Download databases with raw data and put them in 'data' folder in the same directory as your script:
+   <https://bit.ly/3mzEal7>
+
+3. Import datasets module from the package into your Python script and generate formatted datasets.
+
+```python3
+from emotions_comparison import datasets
+
+datasets.generate_datasets()
 ```
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+Import the main module from the package into your Python script and run the main function.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+```python3
+from emotions_comparison import main
 
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
+main.main()
 ```
 
-## Release History
+You will be asked to make a choice:
 
-- 0.0.1
-  - Work in progress
+![preview-1](https://drive.google.com/file/d/1Ri-KKczTBblq7mcskkcC9ajZdrbM_WHl/view?usp=sharing)
+
+If your choice was to compare a single book and film, you will be asked to choose which ones and then given the data.
+![preview-2](https://drive.google.com/file/d/17Vdrq3Pihcv0393VptmsGiSd4vR3otRq/view?usp=sharing)
+![preview-3](https://drive.google.com/file/d/1fxDJZhbwBAEQyhFURVUI95N4XAKuj2Ue/view?usp=sharing)
 
 ## Meta
 
@@ -59,11 +64,3 @@ Distributed under the MIT license. See `LICENSE` for more information.
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics

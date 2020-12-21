@@ -12,11 +12,13 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/dyaroshevych/emotions-comparison",
-    packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.8',
+    packages=["emotions_comparison"],
+    package_dir={"emotions_comparison": "emotions_comparison"},
+    include_package_data=True
 )
