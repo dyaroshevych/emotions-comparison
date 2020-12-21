@@ -59,6 +59,13 @@ In the end, the data will be shown in the console.
 
 ![preview-3](https://gdurl.com/BYx0)
 
+<br />
+<br />
+
+If you choose to get a rating analysis, you will be shown this graph.
+
+![result](https://gdurl.com/lQ2X)
+
 ## Meta
 
 Your Name – [@dyaroshevych](https://twitter.com/dyaroshevych) – dyaroshevych@gmail.com
