@@ -72,7 +72,7 @@ Your Name – [@dyaroshevych](https://twitter.com/dyaroshevych) – dyaroshevych
 
 Distributed under the MIT license. See `LICENSE` for more information.
 
-[https://github.com/dyaroshevych/emotions-comparison](https://github.com/dyaroshevych/)
+[https://github.com/dyaroshevych/emotions-comparison](https://github.com/dyaroshevych/emotions-comparison)
 
 ## Contributing
 

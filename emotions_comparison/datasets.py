@@ -13,10 +13,9 @@ import pandas as pd
 from pathlib import Path
 from os import mkdir, path
 
-
-BOOKS_LOCATION = Path(__file__).parent / 'raw_data/books.csv'
-FILMS_LOCATIONS = [Path(__file__).parent / 'raw_data/title.basics.tsv',
-                   Path(__file__).parent / 'raw_data/title.ratings.tsv']
+BOOKS_LOCATION = 'raw_data/books.csv'
+FILMS_LOCATIONS = ['raw_data/title.basics.tsv',
+                   'raw_data/title.ratings.tsv']
 
 BOOKS_COLS = {'original_title': 'title', 'ratings_count': 'num_votes'}
 FILMS_COLS = {'originalTitle': 'title', 'startYear': 'year',
